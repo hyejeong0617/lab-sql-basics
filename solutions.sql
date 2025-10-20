@@ -1,4 +1,6 @@
-select account_id from account where district_id ==1 limit 5;
+
+
+select client_id from client where district_id ==1 limit 5;
 
 select client_id from client where district_id == 72 order by client_id DESC limit 1;
 
@@ -33,3 +35,4 @@ select date, count(*) as load_count from loan where date < 930907 group by date 
 select date, duration, count(*) as load_issue from loan where date between 971201 and 971231 group by date, duration order by date, duration; 
 
 select account_id, type, sum(amount) as total_amount from trans where account_id==396 group by type;
+

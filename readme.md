@@ -245,8 +245,7 @@ Expected result:
 ```
 
 ### Query 17
-
-In the `loan` table, for each day in December 1997, count the number of loans issued for each unique loan duration, ordered by date and duration, both in ascending order. You can ignore days without any loans in your output.
+=
 
 Expected result:
 
